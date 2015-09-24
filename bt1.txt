@@ -1,0 +1,5 @@
+<?php 
+$a=fopen('truycap.txt', r);
+$online=fgets($a);
+echo $online;
+?>
